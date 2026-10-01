@@ -1,0 +1,47 @@
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    display:grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items:center;
+    
+    background-color: #ecebeb;
+}
+
+body{
+    margin:0px;
+    padding-top:80px;
+}
+
+.logo{
+    padding-left:30px;
+}
+
+header h1 {
+    justify-self: center;
+}
+
+.menu {
+    justify-self: end;
+    padding-right:15px;
+}
+
+nav {
+    display:none;
+}
+
+.slogan {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-blokken {
+    gap: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
